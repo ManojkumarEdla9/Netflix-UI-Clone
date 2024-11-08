@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Assets/Images/Netflix-bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+}
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 76vw;
+    margin: auto;
+    height: 80px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 8;
+}
+
+nav div {
+    display: flex;
+    gap: 30px;
+}
+
+nav button {
+    position: relative;
+    z-index: 8;
+}
+
+.en {
+    width: 115px;
+    height: 32px;
+    border: 0.2px solid rgb(244, 230, 230);
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.3);
+    color: white;
+    font-size: 15px;
+}
+
+.si {
+    width: 75px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.si:hover {
+
+    background-color: white;
+    color: red;
+}
+
+.txt {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+
+}
+
+.txt span {
+    margin: 10px;
+}
+
+.txt .f {
+    font-size: 22px;
+    font-weight: 1000;
+    z-index: 8;
+    text-align: center;
+}
+
+
+
+.txt .s {
+    font-size: 22px;
+    z-index: 8;
+    text-align: center;
+}
+
+.t {
+    font-size: 18px;
+    z-index: 8;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 350px;
+    height: 60px;
+    border: 0.1px solid rgb(244, 230, 230);
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.8);
+    padding-left: 20px;
+    color: rgb(178, 173, 173);
+    font-size: 17px;
+
+}
+
+.gs {
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.gs:hover {
+
+    background-color: white;
+    color: red;
+}
+
+.sepa {
+    width: 100vw;
+    height: 8px;
+    background-color: rgb(54, 49, 49);
+}
+
+.sec {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 180px;
+}
+
+.sec>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.t1 {
+    font-size: 30px;
+
+}
+
+.t2 {
+    font-size: 21px;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    z-index: 8;
+}
+
+.secImg video {
+    position: absolute;
+    top: 94px;
+    left: 80px;
+    height: 245px;
+}
+
+.secImg .vid {
+    position: absolute;
+    top: 53px;
+    left: 98px;
+    height: 220px;
+    width: 401px;
+}
+
+.over {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: black;
+    position: absolute;
+    top: 69%;
+    left: 130px;
+    height: 100px;
+    width: 325px;
+    z-index: 8;
+}
+
+.pic img {
+    height: 75px;
+    width: 60px;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+}
+
+.st {
+    font-weight: 600;
+}
+
+.dow {
+    color: rgb(42, 42, 255);
+    font-size: 14px;
+}
+
+.gif img {
+    margin-left: 20px;
+    height: 50px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 70px;
+    gap: 8px;
+}
+
+.q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 70vw;
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.q:hover {
+    background-color: rgb(150, 22, 22);
+}
+
+.faq p {
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.faq span {
+    margin-top: 40px;
+}
+
+.faq div:nth-child(1) {
+
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: rgb(229, 221, 221);
+    gap: 20px;
+    padding: 50px 200px;
+    font-size: 15px;
+}
+
+.gr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+}
+
+footer a {
+    height: 35px;
+    color: rgb(229, 221, 221);
+}
+
+@media screen and (max-width: 1060px) {
+
+    .sepa {
+        width: 100vw;
+    }
+
+    .sec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .form {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
